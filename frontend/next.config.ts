@@ -1,34 +1,14 @@
 import type { NextConfig } from "next";
 
+const isGithubPages =
+  process.env.GITHUB_PAGES === "true" ||
+  process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          {
-            key: "X-Frame-Options",
-            value: "DENY",
-          },
-          {
-            key: "X-Content-Type-Options",
-            value: "nosniff",
-          },
-          {
-            key: "Referrer-Policy",
-            value: "strict-origin-when-cross-origin",
-          },
-          {
-            key: "X-XSS-Protection",
-            value: "1; mode=block",
-          },
-          {
-            key: "Permissions-Policy",
-            value: "camera=(), microphone=(), geolocation=()",
-          },
-        ],
-      },
-    ];
+  output: "export",
+  basePath: isGithubPages ? "/JurisPath" : "",
+  images: {
+    unoptimized: true,
   },
 };
 

@@ -1,7 +1,7 @@
 # JurisPath — Your Path Through Legal Information
 
+[![Live GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-0D9488?style=for-the-badge&logo=githubpages)](https://captainchakri141.github.io/JurisPath/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/CaptainChakri141/JurisPath)
-[![Live Demo](https://img.shields.io/badge/Live-Web%20App-0D9488?style=for-the-badge&logo=vercel)](http://localhost:3000)
 [![API Docs](https://img.shields.io/badge/FastAPI-Swagger%20Docs-009688?style=for-the-badge&logo=fastapi)](http://127.0.0.1:8000/docs)
 [![Build Status](https://img.shields.io/badge/Build-Passing-emerald?style=for-the-badge&logo=githubactions)](https://github.com/CaptainChakri141/JurisPath)
 [![Tests](https://img.shields.io/badge/Tests-62%2F62%20Passing-emerald?style=for-the-badge&logo=pytest)](https://github.com/CaptainChakri141/JurisPath)
@@ -19,11 +19,12 @@
 
 | Resource | URL | Description |
 | :--- | :--- | :--- |
-| **GitHub Repository** | [https://github.com/CaptainChakri141/JurisPath](https://github.com/CaptainChakri141/JurisPath) | Full source code, test suites, and documentation |
-| **Live Web Application** | [http://localhost:3000](http://localhost:3000) | Next.js 15 frontend with interactive workspace & navigator |
-| **FastAPI Backend Service** | [http://127.0.0.1:8000](http://127.0.0.1:8000) | Asynchronous backend API with in-memory RAG & cache |
-| **Interactive API Documentation** | [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) | Swagger UI for executing and testing all endpoints |
-| **System Health & Telemetry** | [http://127.0.0.1:8000/api/health](http://127.0.0.1:8000/api/health) | Real-time service status, loaded documents, and cache stats |
+| 🌐 **Live GitHub Pages Deployment** | [https://captainchakri141.github.io/JurisPath/](https://captainchakri141.github.io/JurisPath/) | Hosted live web app on GitHub Pages |
+| 💻 **Local Web Application** | [http://localhost:3000](http://localhost:3000) | Local Next.js development server |
+| 📂 **GitHub Repository** | [https://github.com/CaptainChakri141/JurisPath](https://github.com/CaptainChakri141/JurisPath) | Full source code, test suites, and documentation |
+| ⚡ **FastAPI Backend Service** | [http://127.0.0.1:8000](http://127.0.0.1:8000) | Asynchronous backend API with in-memory RAG & cache |
+| 📖 **Interactive API Documentation** | [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) | Swagger UI for executing and testing all endpoints |
+| 🩺 **System Health & Telemetry** | [http://127.0.0.1:8000/api/health](http://127.0.0.1:8000/api/health) | Real-time service status, loaded documents, and cache stats |
 
 ---
 
