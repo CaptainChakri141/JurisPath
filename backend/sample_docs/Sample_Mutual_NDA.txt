@@ -1,0 +1,58 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+(DEMO DOCUMENT ONLY - JURISPATH SAMPLE)
+
+This Mutual Non-Disclosure Agreement ("Agreement") is made effective as of 15th December, 2024 ("Effective Date") by and between:
+
+PARTY A:
+Apex HealthTech Innovations Private Limited, a company incorporated under the Companies Act 2013, with its registered corporate office at Plot 45, Technology Park, Mangalagiri, Amaravati, Andhra Pradesh - 522503 ("Apex").
+
+AND
+
+PARTY B:
+BioInnovate Diagnostic Labs LLP, a limited liability partnership organized under the LLP Act 2008, having its principal place of business at Cyber Towers, Madhapur, Hyderabad - 500081 ("BioInnovate").
+
+(Apex and BioInnovate are individually referred to as a "Party" and collectively as the "Parties").
+
+PURPOSE:
+The Parties wish to explore and evaluate a prospective strategic commercial collaboration relating to AI-assisted genomic diagnostics and telemedicine workflows ("Authorized Purpose"). In connection with discussions, each Party may disclose proprietary and confidential information to the other.
+
+NOW, THEREFORE, the Parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+"Confidential Information" means all non-public technical, clinical, financial, customer, algorithm, architectural, and business information disclosed by one Party ("Disclosing Party") to the other Party ("Receiving Party"), whether orally or in tangible writing, that is designated as confidential or which reasonably should be understood to be confidential given the nature of the information.
+
+2. EXCLUSIONS FROM CONFIDENTIALITY
+Confidential Information does not include information that:
+(a) is or becomes publicly known without breach of this Agreement;
+(b) was already in the rightful possession of the Receiving Party prior to disclosure without confidentiality restrictions;
+(c) is independently developed by the Receiving Party without reference to or reliance upon the Disclosing Party's information;
+(d) is required to be disclosed by a court of competent jurisdiction or regulatory authority, provided the Receiving Party gives prompt written notice to enable protective orders.
+
+3. NON-USE AND NON-DISCLOSURE OBLIGATIONS
+The Receiving Party agrees:
+(a) To hold Confidential Information in strict confidence and protect it with at least the same degree of care it uses for its own confidential data, but no less than reasonable care.
+(b) Not to use the Disclosing Party's Confidential Information for any purpose other than the Authorized Purpose.
+(c) Not to disclose Confidential Information to any third party other than its directors, employees, and legal counsel who need to know and who are bound by confidentiality obligations at least as restrictive as this Agreement.
+
+4. DURATION AND SURVIVAL OF OBLIGATIONS
+This Agreement shall remain in effect for a term of 2 (two) years from the Effective Date. The non-disclosure and confidentiality obligations set forth herein shall survive termination or expiration of this Agreement for a period of 3 (three) years thereafter; provided, however, that trade secrets, proprietary algorithms, and patient healthcare data shall be maintained as confidential in perpetuity.
+
+5. RETURN OR DESTRUCTION OF MATERIALS
+Within 14 (fourteen) calendar days of receiving a written request from the Disclosing Party, the Receiving Party shall promptly return or destroy all physical documents, electronic records, prototypes, and media containing Confidential Information, and provide written certification of compliance signed by an authorized officer.
+
+6. NO LICENSE OR WARRANTY
+Nothing in this Agreement grants any intellectual property license, copyright, patent, or trademark to the Receiving Party. All Confidential Information is provided "AS IS" without warranty of accuracy or completeness.
+
+7. REMEDIES AND INJUNCTIVE RELIEF
+The Parties acknowledge that any unauthorized breach of this Agreement may cause irreparable harm for which monetary damages alone would be inadequate. Accordingly, the Disclosing Party shall be entitled to seek temporary and permanent injunctive relief in addition to any other remedies available at law.
+
+8. GOVERNING LAW AND JURISDICTION
+This Agreement shall be governed by, and construed in accordance with, the laws of the Republic of India. The commercial courts situated in Vijayawada / Guntur, Andhra Pradesh shall have exclusive jurisdiction to settle any dispute arising out of or in connection with this Agreement.
+
+IN WITNESS WHEREOF, the Parties have caused this Mutual Non-Disclosure Agreement to be executed by their duly authorized representatives.
+
+For Apex HealthTech Innovations Pvt Ltd:
+Dr. K. Srinivas (Chief Technology Officer)
+
+For BioInnovate Diagnostic Labs LLP:
+Dr. Meera Nambiar (Managing Partner)

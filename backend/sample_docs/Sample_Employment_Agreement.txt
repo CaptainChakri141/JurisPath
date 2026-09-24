@@ -1,0 +1,54 @@
+EMPLOYMENT AGREEMENT
+(DEMO DOCUMENT ONLY - JURISPATH SAMPLE)
+
+This Employment Agreement ("Agreement") is entered into as of 1st November, 2024 ("Effective Date") by and between:
+
+EMPLOYER:
+NexaTech Software Solutions Private Limited, a company incorporated under the Companies Act 2013, having its corporate technology center at Mindspace IT Park, Madhapur, Hyderabad, and development hub at IT SEZ, Rushikonda, Visakhapatnam, Andhra Pradesh - 530045 (hereinafter referred to as the "Company").
+
+AND
+
+EMPLOYEE:
+Ms. Ananya Sharma, D/o Sri Rajiv Sharma, residing at Flat 304, Green Meadows, Gachibowli, Hyderabad - 500032, and permanent resident of Vijayawada, Andhra Pradesh (hereinafter referred to as the "Employee").
+
+NOW THEREFORE, in consideration of the mutual covenants and promises herein contained, the parties agree as follows:
+
+1. POSITION AND APPOINTMENT
+The Company hereby appoints the Employee to serve in the position of Senior Frontend Architect. The Employee shall perform duties faithfully, diligently, and in compliance with all reasonable directions given by Company management.
+
+2. COMPENSATION AND BENEFITS
+(a) Fixed Base Salary: The Company shall pay the Employee an annual Cost to Company (CTC) of INR 18,00,000/- (Rupees Eighteen Lakhs only), payable in monthly installments on the last working day of each calendar month, subject to statutory deductions including Provident Fund and Tax Deducted at Source (TDS).
+(b) Performance Incentive: An annual performance bonus of up to INR 2,00,000/- (Rupees Two Lakhs only) may be awarded based on key performance indicators (KPIs) evaluated during the annual appraisal cycle in March.
+
+3. PROBATION PERIOD
+The Employee shall undergo an initial Probationary Period of 3 (three) months from the Effective Date. During probation, either party may terminate the employment by providing 15 (fifteen) calendar days prior written notice or basic salary in lieu thereof. Upon satisfactory completion, the Company shall confirm the Employee in writing.
+
+4. REGULAR TERMINATION AND NOTICE PERIOD
+Following confirmation of employment:
+(a) Either the Company or the Employee may terminate the employment relationship at any time by giving 90 (ninety) calendar days prior written notice, or by paying gross salary in lieu of notice.
+(b) The Company reserves the sole right, at its discretion, to waive the notice period without any obligation to pay salary in lieu, or to require the Employee to serve out the complete notice period on gardening leave.
+(c) Termination for Cause: The Company may terminate employment immediately without notice or severance pay if the Employee engages in gross misconduct, fraud, breach of confidentiality, or unauthorized absence exceeding 5 consecutive days.
+
+5. INTELLECTUAL PROPERTY RIGHTS AND INVENTIONS
+All intellectual property, proprietary software, code repositories, UI designs, patents, documentation, and inventions conceived or developed by the Employee during the course of employment shall be the sole and exclusive property of the Company as a "work made for hire" under the Indian Copyright Act 1957. The Employee unconditionally assigns all worldwide rights, title, and interests to the Company.
+
+6. CONFIDENTIALITY AND NON-DISCLOSURE
+The Employee acknowledges that during employment, they will have access to confidential algorithms, client lists, business strategies, and trade secrets. The Employee shall maintain strict confidentiality during and perpetually after the termination of employment. The Employee shall not disclose any proprietary data without prior written authorization.
+
+7. NON-SOLICITATION AND RESTRICTIVE COVENANTS
+For a period of 12 (twelve) months following the termination of employment for any reason:
+(a) The Employee shall not directly or indirectly solicit, induce, or attempt to hire any employee, consultant, or contractor of the Company.
+(b) The Employee shall not solicit or divert any client, customer, or vendor with whom the Employee had professional dealings during the preceding 12 months.
+(c) Post-employment non-compete clauses are interpreted in accordance with Section 27 of the Indian Contract Act 1872, which voids agreements in restraint of lawful trade, except regarding preservation of proprietary trade secrets.
+
+8. RETURN OF COMPANY PROPERTY
+Upon cessation of employment, the Employee shall immediately return to the Company all laptops, access badges, encryption keys, confidential documents, and storage media within 3 (three) working days.
+
+9. GOVERNING LAW AND ARBITRATION
+This Agreement shall be governed by and interpreted under the laws of India. Any controversy or dispute arising out of this Agreement shall be referred to a sole arbitrator appointed mutually by the parties under the Arbitration and Conciliation Act 1996. The seat and venue of arbitration shall be Visakhapatnam / Hyderabad, and the High Court of Andhra Pradesh / High Court of Telangana shall possess supervisory jurisdiction.
+
+IN WITNESS WHEREOF, the Company and Employee have signed this Agreement as of the Effective Date.
+
+For NexaTech Software Solutions Pvt Ltd:
+Authorized Signatory: Vikram Verma (Director - People Operations)
+Employee: Ms. Ananya Sharma
