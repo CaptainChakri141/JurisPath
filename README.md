@@ -41,20 +41,16 @@ $$\text{UNDERSTAND} \longrightarrow \text{EXPLAIN} \longrightarrow \text{ASK} \l
 
 ## 🧩 Key Components Overview
 
-### 1. 🛡️ Interactive Parameters Inspector
-- Embedded directly on the landing page, showcasing the **6 Platform Evaluation Parameters** (`Code Quality`, `Security`, `Efficiency`, `Testing`, `Accessibility`, and `Problem Statement Alignment`).
-- Users and evaluators can interactively click each parameter pill to inspect its technical architecture, verified metrics, live test coverage, and implementation files.
-
-### 2. 📄 Document Analyzer
+### 1. 📄 Document Analyzer
 - **Multi-Format Ingestion**: Upload PDF, DOCX, TXT, or scanned files (up to 15MB).
 - **Automated Extraction**: Instant structural extraction of contracting parties, financial considerations, milestones, expressed rights, operational obligations, liquidated damages, and notice windows.
 
-### 3. 💬 Ask JurisPath (Context-Grounded Chatbot)
+### 2. 💬 Ask JurisPath (Context-Grounded Chatbot)
 - Conversational assistant answering contract inquiries (*"Can I terminate early?"*, *"What is the penalty for delayed payment?"*).
 - **Zero Hallucination Guarantee**: If an answer is absent from the uploaded text, JurisPath strictly responds:  
   *"I could not find this information in the uploaded document."*
 
-### 4. ✨ Signature Feature: Evidence Mode
+### 3. ✨ Signature Feature: Evidence Mode
 - Every AI response embeds verifiable evidence citations:
   - **Document Name**
   - **Page Number**
@@ -62,19 +58,19 @@ $$\text{UNDERSTAND} \longrightarrow \text{EXPLAIN} \longrightarrow \text{ASK} \l
   - **Exact Quoted Text Excerpt**
 - **Interactive Highlighting**: Clicking any evidence card in the workspace automatically scrolls the document viewer to the exact clause, pulses with an animated teal glow, and highlights the source text.
 
-### 5. 📖 Simple Language Mode
+### 4. 📖 Simple Language Mode
 - Deconstructs dense legal covenants into **4 crystal-clear layers**:
   1. **Original Legal Text** (with exact page & section anchors)
   2. **Plain Language Explanation** (accessible English for non-lawyers)
   3. **Practical Meaning** (real-world daily operational impact)
   4. **Things To Check** (actionable checklist of red flags and risks)
 
-### 6. ⚖️ 10-Dimension Document Comparison Matrix
+### 5. ⚖️ 10-Dimension Document Comparison Matrix
 - Objective side-by-side comparative delta table across **10 essential legal dimensions**:
   `Duration & Term` • `Payment Terms` • `Deposits & Security` • `Notice Periods` • `Penalties & Late Fees` • `Termination Clauses` • `Liability & Indemnity` • `Renewal Clauses` • `Confidentiality & IP` • `Dispute Resolution & Jurisdiction`
 - **Strict Neutrality**: Never recommends which contract is "better"; provides neutral, objective analysis of trade-offs.
 
-### 7. 🧭 Legal Navigator (Guided Assistant)
+### 6. 🧭 Legal Navigator (Guided Assistant)
 - Scenario-based wizard addressing **7 everyday Indian legal situations**:
   - **Received a Legal Notice** (Section 138 Cheque Bounce, consumer notice, civil claim)
   - **Rental & Tenancy Issue** (deposit withholding, illegal eviction, repair defaults)
@@ -85,15 +81,15 @@ $$\text{UNDERSTAND} \longrightarrow \text{EXPLAIN} \longrightarrow \text{ASK} \l
   - **Legal Term Explanation** (liquidated damages, indemnity, force majeure)
 - Generates: Situation Summary, Documents to Gather, Critical Limitation Dates, Actionable Next Steps, Official Indian Statutory Citations (e-Daakhil, NCH, India Code), and Lawyer Consultation Criteria.
 
-### 8. ⏱️ Deadline & Timeline Detection
+### 7. ⏱️ Deadline & Timeline Detection
 - Automated detection and calculation of notice periods, payment due dates, statutory cure periods, and expiration dates with days-remaining countdowns.
 
-### 9. 🤖 Dual-Mode Gen AI Architecture
+### 8. 🤖 Dual-Mode Gen AI Architecture
 - **Google Gemini 2.5 Flash**: Powered by the official `google-genai` Python SDK for context-grounded synthesis with temperature 0.1 and strict legal safety guardrails.
 - **Deterministic Grounded Fallback**: Works 100% offline out-of-the-box without requiring API keys, ensuring uninterrupted operation during network or quota limits.
 - **In-App API Key Configuration**: Dynamically configure or update Gemini API keys directly from the top navigation bar with in-memory masking.
 
-### 10. 📑 4 Preloaded Indian Legal Demo Documents
+### 9. 📑 4 Preloaded Indian Legal Demo Documents
 - `Sample_Residential_Rental_Agreement.txt`: Visakhapatnam 11-month lease with 2-month notice, lock-in, and deposit terms.
 - `Sample_Employment_Agreement.txt`: Tech company appointment with 90-day notice, IP assignment, and Section 27 limits.
 - `Sample_Mutual_NDA.txt`: Mutual Non-Disclosure Agreement with perpetual trade secret protection.

@@ -19,7 +19,6 @@ import {
 import Navbar from '@/components/Navbar';
 import DisclaimerBanner from '@/components/DisclaimerBanner';
 import UploadModal from '@/components/UploadModal';
-import ParametersBar from '@/components/ParametersBar';
 
 export default function HomePage() {
   const [showUploadModal, setShowUploadModal] = useState(false);
@@ -222,9 +221,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* 2. PLATFORM EVALUATION PARAMETERS (MATCHING IMAGE SPECIFICATION) */}
-      <ParametersBar />
 
       {/* 2. SIGNATURE FEATURE: EVIDENCE MODE SHOWCASE */}
       <section className="py-16 bg-slate-50 border-b border-slate-200">
