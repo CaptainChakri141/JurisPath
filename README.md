@@ -6,7 +6,7 @@
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/CaptainChakri141/JurisPath)
 [![Live Deployment](https://img.shields.io/badge/Live-Deployment-0D9488?style=for-the-badge&logo=githubpages)](https://captainchakri141.github.io/JurisPath/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-emerald?style=for-the-badge&logo=githubactions)](https://github.com/CaptainChakri141/JurisPath)
-[![Tests](https://img.shields.io/badge/Tests-62%2F62%20Passing-emerald?style=for-the-badge&logo=pytest)](https://github.com/CaptainChakri141/JurisPath)
+[![Tests](https://img.shields.io/badge/Tests-59%2F59%20Passing-emerald?style=for-the-badge&logo=pytest)](https://github.com/CaptainChakri141/JurisPath)
 [![Security](https://img.shields.io/badge/Security-OWASP%20Hardened-blue?style=for-the-badge&logo=shield)](https://github.com/CaptainChakri141/JurisPath)
 [![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%202.1%20AA-slate?style=for-the-badge&logo=w3c)](https://github.com/CaptainChakri141/JurisPath)
 [![Next.js](https://img.shields.io/badge/Next.js-15%20App%20Router-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
@@ -204,14 +204,14 @@ Next.js development server runs locally.
 
 ---
 
-### 3. Running Automated Tests (62 Tests)
+### 3. Running Automated Tests (59 Tests)
 
 ```bash
 # 1. Run Backend Tests (Pytest - 38 tests):
 cd backend
 .\venv\Scripts\python.exe -m pytest
 
-# 2. Run Frontend Tests (Vitest - 24 tests):
+# 2. Run Frontend Tests (Vitest - 21 tests):
 cd frontend
 npm test
 ```
@@ -261,7 +261,7 @@ Evaluation Parameters:
 | **Code Quality** | 🟢 Green | **Exemplary** | • Strict TypeScript in Next.js 15 & React 19.<br>• Pydantic v2 schemas in FastAPI.<br>• Modular 8-service architecture.<br>• Centralized exception masking preventing stack trace leakage.<br>• Null-safe pathname hooks and scoped page lengths. | • **0 ESLint errors/warnings**<br>• **100% typed API contracts**<br>• Clean separation of concerns | `cd frontend && npm run lint`<br>`cd frontend && npm run build`<br>`backend/models/schemas.py`<br>`frontend/src/lib/api.ts` |
 | **Security** | 🔵 Blue | **Hardened** | • **Magic Byte Validation**: inspects `%PDF-` and `PK\x03\x04`; rejects `MZ` (PE) and `\x7fELF` binaries.<br>• **15MB upload ceiling** returning HTTP 413.<br>• **Path traversal & null-byte stripping** in `security.py`.<br>• **Sliding-window IP rate limiting** (30 req/min for AI, 120 req/min for reads).<br>• **OWASP Headers**: CSP, HSTS, `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`. | • Blocks PE/ELF binaries<br>• 429 Rate Limiter active<br>• Strict sanitized filenames<br>• In-memory masked API keys | `cd backend && pytest tests/test_security.py`<br>`backend/security.py` |
 | **Efficiency** | 🔵 Blue | **Optimized** | • **LRU+TTL Caching Subsystem**: Thread-safe in-memory cache with SHA-256 compound keys.<br>• **Sub-2ms cache latency**: Repeated queries and comparisons drop from ~1200ms to < 2ms (>99% drop).<br>• **Zero cold-start**: Pre-indexes all 4 sample documents during bootstrap.<br>• In-memory spatial token indexing avoids heavy DB queries. | • **< 2ms Cache Hit Speed**<br>• **500-Item LRU Memory Pool**<br>• 3600s Default TTL<br>• Live telemetry at `/api/cache/stats` | `cd backend && pytest tests/test_efficiency.py`<br>`backend/cache.py` |
-| **Testing** | ⚪ Gray → 🟢 | **Comprehensive** | • **62 Total Automated Tests (100% Green)**.<br>• **38 Pytest Backend Tests**: API endpoints, security defenses, rate limiter, cache benchmarks, and problem alignment.<br>• **24 Vitest Frontend Tests**: Components, Navbar navigation, EvidenceCard callbacks, UploadModal dropzone, and a11y. | • **38 Backend tests passed**<br>• **24 Frontend tests passed**<br>• **100% test pass rate** | `cd backend && pytest`<br>`cd frontend && npm test` |
+| **Testing** | ⚪ Gray → 🟢 | **Comprehensive** | • **59 Total Automated Tests (100% Green)**.<br>• **38 Pytest Backend Tests**: API endpoints, security defenses, rate limiter, cache benchmarks, and problem alignment.<br>• **21 Vitest Frontend Tests**: Components, Navbar navigation, EvidenceCard callbacks, UploadModal dropzone, and a11y. | • **38 Backend tests passed**<br>• **21 Frontend tests passed**<br>• **100% test pass rate** | `cd backend && pytest`<br>`cd frontend && npm test` |
 | **Accessibility** | ⚪ Gray → 🟢 | **Compliant** | • **WCAG 2.1 AA Compliant**.<br>• Semantic landmarks: `<header role="banner">`, `<nav aria-label="...">`, `<main id="main-content">`, `<aside>`.<br>• `aria-live="polite"` dynamic chatbot announcement.<br>• Full keyboard operability: Tab navigation, Enter/Space activation, Escape dismissal.<br>• High-contrast ratios (`#0A192F`, `#F8FAFC`, `#0D9488`). | • **100% Keyboard Operable**<br>• Screen reader verified<br>• Focus rings on all inputs<br>• `sr-only` brand accessibility | `cd frontend && npm test src/components/__tests__/Navbar.test.tsx`<br>`frontend/src/components/EvidenceCard.tsx` |
 | **Problem Statement Alignment** | 🟢 Green | **Aligned** | • Solves legal information asymmetry for ordinary citizens in India & Andhra Pradesh.<br>• **6-Phase Philosophy**: Understand → Explain → Ask → Compare → Navigate → Verify.<br>• **Zero-Hallucination Guarantee**: Strict boundary checks.<br>• **Evidence Mode**: Direct citation to Page, Section & quoted excerpt.<br>• **Indian Statutes**: Consumer Protection Act 2019, NI Act 1881, CPC Section 80, AP Tenancy. | • **4-Layer Simple Language**<br>• **10-Point Comparison Matrix**<br>• **7 Indian Legal Scenarios**<br>• Verified evidence glow | `cd backend && pytest tests/test_problem_alignment.py`<br>`backend/services/navigator_service.py` |
 
