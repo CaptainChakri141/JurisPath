@@ -1,5 +1,8 @@
 # JurisPath — Your Path Through Legal Information
 
+> 🌐 **Live Deployed Website (GitHub Pages):** **[https://captainchakri141.github.io/JurisPath/](https://captainchakri141.github.io/JurisPath/)**  
+> 📂 **GitHub Source Repository:** **[https://github.com/CaptainChakri141/JurisPath](https://github.com/CaptainChakri141/JurisPath)**
+
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/CaptainChakri141/JurisPath)
 [![Live Deployment](https://img.shields.io/badge/Live-Deployment-0D9488?style=for-the-badge&logo=githubpages)](https://captainchakri141.github.io/JurisPath/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-emerald?style=for-the-badge&logo=githubactions)](https://github.com/CaptainChakri141/JurisPath)
@@ -14,12 +17,12 @@
 
 ---
 
-## 🔗 Project & Deployment Links
+## 🔗 Project & Live Deployment Links
 
-| Resource | Link | Description |
-| :--- | :--- | :--- |
-| 📂 **GitHub Repository** | [https://github.com/CaptainChakri141/JurisPath](https://github.com/CaptainChakri141/JurisPath) | Full source code, test suites, and documentation |
-| 🌐 **Live Deployment** | [https://captainchakri141.github.io/JurisPath/](https://captainchakri141.github.io/JurisPath/) | Hosted live web application on GitHub Pages |
+| Resource | Link | Description | Status |
+| :--- | :--- | :--- | :---: |
+| 🌐 **Live Deployment** | [https://captainchakri141.github.io/JurisPath/](https://captainchakri141.github.io/JurisPath/) | Hosted live web application on GitHub Pages | 🟢 **Live Online** |
+| 📂 **GitHub Repository** | [https://github.com/CaptainChakri141/JurisPath](https://github.com/CaptainChakri141/JurisPath) | Full source code, test suites, and documentation | 🟢 **Main Branch** |
 
 ---
 
